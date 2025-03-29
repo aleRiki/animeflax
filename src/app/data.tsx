@@ -1,5 +1,6 @@
 
 
+
 export const animeData = [
   {
     id: 1,
@@ -124,7 +125,7 @@ export const animeData = [
   {
     id: 21,
     name: "Steins;Gate",
-    img: "https://www3.animeflv.net/uploads/animes/covers/2034.jpg",
+    img: "https://www3.animeflv.net/uploads/animes/covers/363.jpg",
     url: "https://www3.animeflv.net/browse?q=Steins;Gate", // Agrega la URL del logo si dispones de ella
   },
   {
@@ -148,26 +149,26 @@ export const animeData = [
   {
     id: 25,
     name: "The Promised Neverland",
-    img: "https://www3.animeflv.net/uploads/animes/covers/2765.jpg",
+    img: "https://www3.animeflv.net/uploads/animes/covers/3084.jpg",
     url: "https://www3.animeflv.net/browse?q=The+Promised+Neverland", // Agrega la URL del logo si dispones de ella
   },
   {
     id: 26,
     name: "Fate/Zero",
-    img: "https://www3.animeflv.net/uploads/animes/covers/2036.jpg",
+    img: "https://www3.animeflv.net/uploads/animes/covers/773.jpg",
     url: "https://www3.animeflv.net/browse?q=Fate/Zero", // Agrega la URL del logo si dispones de ella
   },
   {
     id: 27,
     name: "Fate/Stay Night: Unlimited Blade Works",
-    img: "https://www3.animeflv.net/uploads/animes/covers/2037.jpg",
+    img: "https://www3.animeflv.net/uploads/animes/covers/263.jpg",
     url: "https://www3.animeflv.net/browse?q=Fate/Stay+Night:+Unlimited+Blade+Works", // Agrega la URL del logo si dispones de ella
   },
   {
     id: 28,
     name: "Gintama",
     url: "https://www3.animeflv.net/browse?q=Gintama", // Agrega la URL del logo si dispones de ella
-    img: "https://www3.animeflv.net/uploads/animes/covers/2038.jpg",
+    img: "https://www3.animeflv.net/uploads/animes/covers/366.jpg",
   },
   {
     id: 29,
@@ -181,4 +182,39 @@ export const animeData = [
     url: "https://www3.animeflv.net/browse?q=Black+Clover", // Agrega la URL del logo si dispones de ella
     img: "https://www3.animeflv.net/uploads/animes/covers/3816.jpg",
   },
+  {
+    id: 31,
+    name: "Dr. Stone",
+    url: "https://www3.animeflv.net/browse?q=Dr.+Stone", // Agrega la URL del logo si dispones de ella
+    img: "https://www3.animeflv.net/uploads/animes/covers/3785.jpg",
+  },
+  {
+    id: 32,
+    name: "Fire Force",
+    url: "https://www3.animeflv.net/browse?q=Fire+Force", // Agrega la URL del logo si dispones de ella
+    img: "https://www3.animeflv.net/uploads/animes/covers/3155.jpg",
+  },
+  {
+    id: 33,
+    name: "The Seven Deadly Sins",
+    url: "https://www3.animeflv.net/browse?q=The+Seven+Deadly+Sins", // Agrega la URL del logo si dispones de ella
+    img: "https://www3.animeflv.net/uploads/animes/covers/3419.jpg",
+  },
+  {
+    id: 34,
+    name: "Dandadan",
+    url: "https://www3.animeflv.net/browse?q=danda", // Agrega la URL del logo si dispones de ella
+    img: "https://www3.animeflv.net/uploads/animes/covers/4056.jpg",
+  },
+  {
+    id:35,
+    name:"Sentai Red Isekai de Boukensha ni Naru",
+    url:"https://www3.animeflv.net/browse?q=Sentai+Red+Isekai+de+Boukensha+ni+Naru",
+    img:"https://www3.animeflv.net/uploads/animes/covers/4130.jpg"
+  },
+  {id:36,
+  name:"Mieruko-chan",
+  url:"https://www3.animeflv.net/browse?q=Mieruko-chan",
+  img:"https://www3.animeflv.net/uploads/animes/covers/3524.jpg",
+  }
 ];

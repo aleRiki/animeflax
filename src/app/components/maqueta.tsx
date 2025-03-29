@@ -1,8 +1,20 @@
+"use client";
 import React from "react";
 import Populate from "./puplate";
-import ButoonBuscra from "./buttonBUsqueda";
+
 import Link from "next/link";
+
+
+//import ButtonBuscar from "./buttonBUsqueda";
+
 const MaquetaInicio = () => {
+  const speedLines = [...Array(12)].map((_, i) => {
+    const angle = (i * 30 * Math.PI) / 180;
+    return {
+      x2: (50 + 70 * Math.cos(angle)).toFixed(2), // Redondea a 2 decimales
+      y2: (50 + 70 * Math.sin(angle)).toFixed(2), // Redondea a 2 decimales
+    };
+  });
   return (
     <div
       className="relative min-h-screen overflow-hidden font-[family-name:var(--font-geist-sans)] bg-[#0f0e17]"
@@ -27,13 +39,13 @@ const MaquetaInicio = () => {
           {/* Efecto de "speed lines" en esquina */}
           <div className="absolute w-32 h-32 -top-10 -left-10 opacity-20">
             <svg viewBox="0 0 100 100" className="text-[#ff3864]">
-              {[...Array(12)].map((_, i) => (
+              {speedLines.map((line, i) => (
                 <line
                   key={i}
                   x1="50"
                   y1="50"
-                  x2={50 + 70 * Math.cos((i * 30 * Math.PI) / 180)}
-                  y2={50 + 70 * Math.sin((i * 30 * Math.PI) / 180)}
+                  x2={line.x2}
+                  y2={line.y2}
                   stroke="currentColor"
                   strokeWidth="1.5"
                 />
@@ -104,9 +116,10 @@ const MaquetaInicio = () => {
             />
           </div>
         </div>
-        <ButoonBuscra />
+        
         {/* Sección de animes populares */}
         <Populate />
+        
       </main>
     </div>
   );
