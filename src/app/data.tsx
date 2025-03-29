@@ -173,7 +173,7 @@ export const animeData = [
     id: 29,
     name: "Hunter x Hunter",
     url: "https://www3.animeflv.net/browse?q=Hunter+x+Hunter", // Agrega la URL del logo si dispones de ella
-    img: "https://www3.animeflv.net/uploads/animes/covers/2039.jpg",
+    img: "https://www3.animeflv.net/uploads/animes/covers/1095.jpg",
   },
   {
     id: 30,
